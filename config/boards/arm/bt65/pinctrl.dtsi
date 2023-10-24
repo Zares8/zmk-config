@@ -3,6 +3,10 @@
  * SPDX-License-Identifier: MIT
  */
 
+&left_encoder {
+    status = "okay";
+};
+
 &pinctrl {
 	spi3_default: spi3_default {
 		group1 {
