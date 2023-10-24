@@ -29,7 +29,7 @@
 
 	sensors {
 		compatible = "zmk,keymap-sensors";
-		sensors = <&encoder_1>;
+		sensors = <&encoder_3>;
 		triggers-per-rotation = <10>;
 	};
 
@@ -69,8 +69,6 @@
 			, <&gpio0 12 GPIO_ACTIVE_HIGH>
 			, <&gpio0 23 GPIO_ACTIVE_HIGH>
 			, <&gpio1 6 GPIO_ACTIVE_HIGH>
-			, <&gpio1 21 GPIO_ACTIVE_HIGH>
-			, <&gpio1 19 GPIO_ACTIVE_HIGH>
 			;
 
 		row-gpios
