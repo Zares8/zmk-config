@@ -9,7 +9,7 @@
 / {
     macros {
         ctrl_alt_del: ctrl_alt_del {
-            label = "CTRL_ALT_DEL";
+            label = "ZM_ctrl_alt_del";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
