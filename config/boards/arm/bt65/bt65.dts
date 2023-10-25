@@ -98,7 +98,7 @@
 		label = "ENCODER_TWO";
 		a-gpios = <&gpio0 26 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		steps = <24>;
+		steps = <20>;
 		status = "okay";
 	};
 	encoder_3: encoder_3 {
@@ -106,7 +106,7 @@
 		label = "encoder_3";
 		a-gpios = <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		steps = <24>;
+		steps = <20>;
 		status = "okay";
 	};
 	backlight: pwmleds {
