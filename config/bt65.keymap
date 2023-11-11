@@ -42,20 +42,20 @@
 		lower {
 			bindings = <
 				&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &bl BL_TOG  &rgb_ug RGB_TOG
-				&trans  &trans  &kp UP  &trans  &trans  &trans  &trans  &trans  &kp INS  &trans  &kp PSCRN  &kp SLCK  &kp PAUSE_BREAK  &rgb_ug RGB_HUI
-				&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp PG_UP  &sys_reset  &bootloader  &rgb_ug RGB_HUD
-				&kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &trans  &trans  &trans  &trans  &trans  &trans  &kp END  &kp PG_DN  &kp C_NEXT  &trans  &bl BL_INC
-				&bt BT_PRV  &bt BT_NXT  &trans  &trans  &trans  &trans  &trans  &bt BT_CLR  &trans  &bl BL_DEC
+				&none  &none  &kp UP  &none  &none  &none  &none  &none  &kp INS  &none  &kp PSCRN  &kp SLCK  &kp PAUSE_BREAK  &rgb_ug RGB_HUI
+				&none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none  &none  &none  &none  &none  &kp HOME  &kp PG_UP  &sys_reset  &bootloader  &rgb_ug RGB_HUD
+				&kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &none  &none  &none  &none  &none  &none  &kp END  &kp PG_DN  &kp C_NEXT  &none  &bl BL_INC
+				&bt BT_PRV  &bt BT_NXT  &none  &none  &none  &none  &none  &bt BT_CLR  &none  &bl BL_DEC
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 		};
 		raise {
 			bindings = <
-				&trans  &kp LANG1  &kp LANG2  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-				&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-				&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-				&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-				&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+				&none  &kp LANG1  &kp LANG2  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+				&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+				&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+				&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+				&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 		};
