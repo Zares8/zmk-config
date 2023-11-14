@@ -8,9 +8,11 @@
 #define LOWER   1
 #define RAISE   2
 
+
 &lt {
-    tapping-term-ms = <200>;
+	tapping-term-ms = <200>;
 };
+
 
 / {
 	behaviors {
@@ -21,10 +23,8 @@
 			bindings = <&bl BL_INC>, <&bl BL_DEC>;
         };
     };
-
 	keymap {
 		compatible = "zmk,keymap";
-
 		default_layer {
 			bindings = <
 				&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp MINUS  &kp EQUAL  &kp BSPC  &kp C_MUTE
