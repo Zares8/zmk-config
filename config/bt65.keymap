@@ -38,13 +38,13 @@
 		};
 		raise {
 			bindings = <
-				&none  &kp LANG1  &kp LANG2  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &rgb_ug RGB_TOG  &bl BL_TOG
+				&none  &kp LANG1  &kp LANG2  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &rgb_ug RGB_TOG
 				&none  &none  &kp UP  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &rgb_ug RGB_HUI
 				&none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none  &none  &none  &none  &none  &none  &none  &sys_reset  &bootloader  &rgb_ug RGB_HUD
 				&kp C_PREV  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp C_NEXT  &none  &none
 				&bt BT_PRV  &bt BT_NXT  &none  &none  &none  &none  &bt BT_CLR  &none  &none  &none
 			>;
-			sensor-bindings = <&inc_dec_kp BL_INC BL_DEC>;
+			sensor-bindings = <&bl BL_INC BL_DEC>;
 		};
 	};
 };
