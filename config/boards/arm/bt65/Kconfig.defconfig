@@ -28,6 +28,12 @@ config ZMK_USB
 config ZMK_BATTERY_VOLTAGE_DIVIDER
 	default y
 
+config ZMK_SLEEP
+	default y
+
+config ZMK_IDLE_SLEEP_TIMEOUT
+	default 1800000     
+
 config ZMK_KEYBOARD_NAME
 	default "BT65"
 
