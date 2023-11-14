@@ -24,7 +24,7 @@
 				&kp LSHFT  &kp NON_US_BSLH  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT  &kp UP  &kp LG(LS(S))
 				&kp LCTRL  &kp LGUI  &kp LALT  &lt 2 SPACE  &kp RALT  &lt 1 RGUI  &kp RCTRL  &kp LEFT  &kp DOWN  &kp RIGHT
 			>;
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		lower {
 			bindings = <
@@ -34,17 +34,17 @@
 				&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 				&none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 			>;
-			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 		};
 		raise {
 			bindings = <
-				&none  &kp LANG1  &kp LANG2  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bl BL_TOG  &rgb_ug RGB_TOG
+				&none  &kp LANG1  &kp LANG2  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &rgb_ug RGB_TOG  &bl BL_TOG
 				&none  &none  &kp UP  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &rgb_ug RGB_HUI
 				&none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none  &none  &none  &none  &none  &none  &none  &sys_reset  &bootloader  &rgb_ug RGB_HUD
-				&kp C_PREV  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp C_NEXT  &none  &bl BL_INC
-				&bt BT_PRV  &bt BT_NXT  &none  &none  &none  &none  &bt BT_CLR  &none  &none  &bl BL_DEC
+				&kp C_PREV  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp C_NEXT  &none  &none
+				&bt BT_PRV  &bt BT_NXT  &none  &none  &none  &none  &bt BT_CLR  &none  &none  &none
 			>;
-			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp BL_INC BL_DEC>;
 		};
 	};
 };
