@@ -106,7 +106,7 @@
 		label = "encoder_3";
 		a-gpios = <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		steps = <24>;
+		steps = <36>;
 		status = "okay";
 	};
 	backlight: pwmleds {
