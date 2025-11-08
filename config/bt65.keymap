@@ -8,7 +8,6 @@
 #define SECOND   1
 #define FUNCTION 2
 
-
 &lt {
 	tapping-term-ms = <200>;
 };
